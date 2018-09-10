@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Devils Playground</title>
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	</head>
+	<body>
+		<h1>Devil's Playground</h1>
+		<p>A JavaScript idle detection script.</p>
+
+		<h2>Usage</h2>
+		<pre><code>
+	var idle = new DevilsPlayground(
+		function() {
+			console.log('You have been idle for 8 seconds!');
+		},
+		8
+	);
+	idle.start();
+		</code></pre>
+
+		<p>This code appears on this page. You can open the JavaScript console to see the notification.</p>
+
+		<h2>Project</h2>
+		<p>This code can be found online at <a href="https://github.com/salcode/devils-playground">github.com/salcode/devils-playground</a>.</p>
+
+		<script src="js/devils-playground.js"></script>
+		<script>
+			var idle = new DevilsPlayground(
+				function() {
+					console.log('You have been idle for 8 seconds!');
+				},
+				8
+			);
+			idle.start();
+		</script>
+	</body>
+</html>
