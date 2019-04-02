@@ -1,7 +1,7 @@
 /**
  * Devils Playground.
  * JavaScript Idle Detection
- * Version: 0.2.0
+ * Version: 0.3.0
  * License: apache-2.0
  * Project URL: https://github.com/salcode/devils-playground
  * Author: Sal Ferrarello
