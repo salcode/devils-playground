@@ -8,6 +8,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Added
 - Changelog
 
+### Fixed
+- Bind DevilsPlayground object to call of reset() method, so the counter resets
+  when the reset() method is called.
+
 ## [0.2.0] - 2018-09-10
 ### Added
 - Initial Release
