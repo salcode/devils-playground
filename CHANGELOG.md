@@ -8,6 +8,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Added
 - Changelog
 
+### Changed
+- Eliminate unnecessary 'self' variable in addListeners() method
+
 ### Fixed
 - Bind DevilsPlayground object to call of reset() method, so the counter resets
   when the reset() method is called.

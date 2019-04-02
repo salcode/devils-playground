@@ -115,16 +115,15 @@ DevilsPlayground.prototype.isSecondCounterMax = function() {
  */
 DevilsPlayground.prototype.addListeners = function() {
 
-  var self = this,
-    options = this.isPassiveSupported() ? { passive: true } : false;
+  var options = this.isPassiveSupported() ? { passive: true } : false;
 
-  document.addEventListener("mousemove", self.reset.bind(this), options);
-  document.addEventListener("mousedown", self.reset.bind(this), options);
-  document.addEventListener("keypress", self.reset.bind(this), options);
-  document.addEventListener("DOMMouseScroll", self.reset.bind(this), options);
-  document.addEventListener("mousewheel", self.reset.bind(this), options);
-  document.addEventListener("touchmove", self.reset.bind(this), options);
-  document.addEventListener("MSPointerMove", self.reset.bind(this), options);
+  document.addEventListener("mousemove", this.reset.bind(this), options);
+  document.addEventListener("mousedown", this.reset.bind(this), options);
+  document.addEventListener("keypress", this.reset.bind(this), options);
+  document.addEventListener("DOMMouseScroll", this.reset.bind(this), options);
+  document.addEventListener("mousewheel", this.reset.bind(this), options);
+  document.addEventListener("touchmove", this.reset.bind(this), options);
+  document.addEventListener("MSPointerMove", this.reset.bind(this), options);
 };
 
 /**
